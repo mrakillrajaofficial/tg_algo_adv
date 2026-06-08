@@ -786,3 +786,109 @@ if __name__ == "__main__":
         asyncio.run(MultiAgentTradingSystem().run())
     except KeyboardInterrupt:
         pass
+
+
+# ---------------------------------------------------------------------------
+# Minimal Playwright helpers used by `multi_agent_orchestrator.setup()`
+# These are best-effort UI actions — they try several selectors and fall
+# back to no-ops so the system remains robust across UI layout changes.
+# ---------------------------------------------------------------------------
+
+
+async def set_chart_timeframe(page, timeframe: str) -> bool:
+    """Set the chart timeframe (e.g. '1m', '5m', '1h'). Best-effort.
+
+    Returns True on success or if action is unnecessary.
+    """
+    try:
+        # Try common timeframe button selectors
+        for sel in [
+            'button[data-test="timeframe-button"]',
+            'button[aria-label*="timeframe"]',
+            '.timeframe-button',
+            '.chart-timeframe',
+        ]:
+            try:
+                if await page.locator(sel).count() > 0:
+                    await page.click(sel)
+                    await asyncio.sleep(0.2)
+                    # attempt to click a menu entry by visible text
+                    try:
+                        await page.click(f'button:has-text("{timeframe}")', timeout=1200)
+                        await asyncio.sleep(0.2)
+                        return True
+                    except Exception:
+                        pass
+            except Exception:
+                continue
+
+        # Fallback: set via localStorage (many chart widgets read from storage)
+        try:
+            await page.evaluate("(tf) => { try { localStorage.setItem('CHART_TIMEFRAME', tf); } catch(e){} }", timeframe)
+            await asyncio.sleep(0.2)
+            return True
+        except Exception:
+            return True
+    except Exception:
+        return True
+
+
+async def apply_all_indicators(page) -> bool:
+    """Best-effort routine to open the indicators panel and add common indicators.
+
+    Returns True when done (non-fatal if UI actions fail).
+    """
+    indicators = ["EMA", "Aroon", "RSI", "MACD", "Bollinger"]
+    try:
+        # Try to open indicators/search panel
+        opened = False
+        for open_sel in ['button[data-test="indicators-btn"]', '.indicators-button', 'button:has-text("Indicators")']:
+            try:
+                if await page.locator(open_sel).count() > 0:
+                    await page.click(open_sel)
+                    opened = True
+                    await asyncio.sleep(0.3)
+                    break
+            except Exception:
+                continue
+
+        # If opened, try to add each indicator via search + add
+        if opened:
+            for name in indicators:
+                try:
+                    # Try search field
+                    for search_sel in ['input[placeholder*="Search"]', 'input[aria-label*="Search"]', '.indicator-search input']:
+                        try:
+                            locator = page.locator(search_sel)
+                            if await locator.count() > 0:
+                                await locator.fill(name)
+                                await asyncio.sleep(0.25)
+                                # click first result's add button if present
+                                try:
+                                    await page.click(f'text="{name}" >> button:has-text("Add")', timeout=1200)
+                                except Exception:
+                                    # try clicking the result itself
+                                    try:
+                                        await page.click(f'text="{name}"', timeout=1200)
+                                    except Exception:
+                                        pass
+                                break
+                        except Exception:
+                            continue
+                    await asyncio.sleep(0.2)
+                except Exception:
+                    continue
+
+            # Try closing the indicators panel
+            for close_sel in ['button[aria-label="Close"]', '.close-indicators', 'button:has-text("Close")']:
+                try:
+                    if await page.locator(close_sel).count() > 0:
+                        await page.click(close_sel)
+                        break
+                except Exception:
+                    continue
+
+        # Always succeed (non-critical)
+        return True
+    except Exception:
+        return True
