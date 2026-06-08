@@ -1,0 +1,14 @@
+[Unit]
+Description=TG Algo Multi-Agent Orchestrator
+After=network.target
+
+[Service]
+User=akill-sud
+WorkingDirectory=/home/akill-sud/Desktop/tg_algo_enhanced./tg_algo
+Environment=PATH=/home/akill-sud/anaconda3/envs/tg_algo/bin:/usr/bin
+ExecStart=/bin/bash -lc 'conda activate tg_algo && python multi_agent_orchestrator.py'
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

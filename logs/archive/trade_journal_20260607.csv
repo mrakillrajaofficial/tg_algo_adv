@@ -1,0 +1,2 @@
+timestamp,asset,mode,signal,confidence,amount,result,pnl,state_key
+2026-06-07 21:45:21,EUR/USD OTC,ftt,BUY,0.7433,200.0,LOSS,-200.0000,
