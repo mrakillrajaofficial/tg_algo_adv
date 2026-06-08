@@ -89,8 +89,14 @@ class OlymtradeBot:
 
     async def start(self):
         self._pw = await async_playwright().start()
+        # Determine headless mode: allow override via PLAYWRIGHT_HEADLESS or HEADLESS env vars
+        env_headless = os.getenv("PLAYWRIGHT_HEADLESS", None)
+        if env_headless is None:
+            env_headless = os.getenv("HEADLESS", str(settings.HEADLESS))
+        headless_flag = str(env_headless).lower() in ("1", "true", "yes")
+        log.info(f"Starting Playwright — headless={headless_flag}")
         self._browser = await self._pw.chromium.launch(
-            headless=settings.HEADLESS,
+            headless=headless_flag,
             args=["--no-sandbox", "--disable-blink-features=AutomationControlled"],
         )
 
