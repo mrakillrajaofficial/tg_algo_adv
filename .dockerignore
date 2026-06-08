@@ -1,0 +1,11 @@
+.git
+__pycache__/
+*.pyc
+.env
+.vscode/
+logs/
+models/backups/
+models/*/backups/
+data/
+*.log
+.DS_Store
