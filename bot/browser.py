@@ -92,8 +92,22 @@ class OlymtradeBot:
         # Determine headless mode: allow override via PLAYWRIGHT_HEADLESS or HEADLESS env vars
         env_headless = os.getenv("PLAYWRIGHT_HEADLESS", None)
         if env_headless is None:
-            env_headless = os.getenv("HEADLESS", str(settings.HEADLESS))
-        headless_flag = str(env_headless).lower() in ("1", "true", "yes")
+            env_headless = os.getenv("HEADLESS", None)
+        if env_headless is None:
+            # No explicit env — default to settings.HEADLESS
+            headless_flag = bool(settings.HEADLESS)
+        else:
+            headless_flag = str(env_headless).lower() in ("1", "true", "yes")
+
+        # If running inside Docker, force headless unless explicitly overridden
+        try:
+            in_docker = Path("/.dockerenv").exists()
+        except Exception:
+            in_docker = False
+        if in_docker and os.getenv("PLAYWRIGHT_HEADLESS") is None:
+            headless_flag = True
+            log.info("Detected Docker environment — forcing Playwright headless mode")
+
         log.info(f"Starting Playwright — headless={headless_flag}")
         self._browser = await self._pw.chromium.launch(
             headless=headless_flag,
