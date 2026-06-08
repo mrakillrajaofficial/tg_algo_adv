@@ -60828,3 +60828,117 @@ Browser logs:
 2026-06-08 20:24:54,403 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
 2026-06-08 20:24:59,405 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
 2026-06-08 20:24:59,405 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:25:04,410 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:25:04,410 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:25:09,415 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:25:09,415 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:25:14,418 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:25:14,419 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:25:19,424 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:25:19,424 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:25:24,427 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:25:24,428 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:25:29,431 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:25:29,431 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:25:34,440 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:25:34,440 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:25:39,438 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:25:39,439 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:25:44,443 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:25:44,443 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:25:49,446 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:25:49,446 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:25:54,453 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:25:54,453 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:25:59,455 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:25:59,455 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:26:04,460 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:26:04,460 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:26:09,463 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:26:09,463 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:26:14,467 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:26:14,467 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:26:19,472 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:26:19,472 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:26:24,473 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:26:24,473 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:26:29,479 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:26:29,479 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:26:34,482 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:26:34,482 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:26:39,484 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:26:39,484 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:26:44,489 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:26:44,489 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:26:49,493 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:26:49,493 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:26:54,498 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:26:54,499 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:26:59,513 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:26:59,514 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:27:05,661 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:27:05,665 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:27:16,096 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:27:16,098 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:27:16,369 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:27:16,369 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:27:21,159 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:27:21,159 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:27:26,162 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:27:26,162 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:27:31,168 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:27:31,168 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:27:36,172 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:27:36,172 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:27:41,178 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:27:41,178 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:27:46,183 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:27:46,183 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:27:51,187 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:27:51,187 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:27:56,192 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:27:56,192 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:28:01,196 [INFO] agent1_mtf — [Agent1] SELL 1/3 active TFs | raw=59.10% sr=+4.00% floor=40.00% → conf=63.10% | bias=bearish | BB=NORMAL
+2026-06-08 20:28:01,196 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 63.10%
+2026-06-08 20:28:01,196 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:28:01,197 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30SL|60NL|300NL
+2026-06-08 20:28:01,197 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=33.3% (votes for SELL)
+2026-06-08 20:28:01,197 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=99.4 | MACD=217.214897 | ATR=78.152786
+2026-06-08 20:28:01,198 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:28:01,198 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:28:06,198 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:28:06,198 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:28:11,202 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:28:11,202 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:28:16,206 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:28:16,206 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:28:21,213 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:28:21,213 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:28:26,216 [INFO] agent1_mtf — [Agent1] SELL 1/3 active TFs | raw=59.10% sr=+4.00% floor=40.00% → conf=63.10% | bias=bearish | BB=NORMAL
+2026-06-08 20:28:26,216 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 63.10%
+2026-06-08 20:28:26,216 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:28:26,217 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30SL|60NL|300NL
+2026-06-08 20:28:26,217 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=33.3% (votes for SELL)
+2026-06-08 20:28:26,217 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=99.4 | MACD=217.223991 | ATR=78.224571
+2026-06-08 20:28:26,217 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:28:26,217 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:28:31,221 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:28:31,221 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:28:36,227 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:28:36,227 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:28:41,230 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:28:41,230 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:28:46,233 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:28:46,233 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:28:51,235 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:28:51,235 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:28:56,240 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:28:56,240 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:29:01,244 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:29:01,244 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:29:05,906 [WARNING] browser — Could not save browser session: BrowserContext.storage_state: Protocol error (Target.createTarget): Failed to open a new tab
+2026-06-08 20:29:06,019 [WARNING] browser — Browser close failed during shutdown: Browser.close: Connection closed while reading from the driver
+2026-06-08 20:29:06,020 [INFO] multi_agent_orchestrator — ======================================================================
+2026-06-08 20:29:06,020 [INFO] multi_agent_orchestrator —   Session: 3 trades | WR=67%
+2026-06-08 20:29:06,020 [INFO] multi_agent_orchestrator —   P&L: +$328 / -$200 = $+128
+2026-06-08 20:29:06,020 [INFO] multi_agent_orchestrator — ======================================================================
