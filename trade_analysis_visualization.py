@@ -43,28 +43,36 @@ win_loss_data = [
     len(settled_df[settled_df['result'] == 'LOSS'])
 ]
 bars = ax2.bar(['WINS', 'LOSSES'], win_loss_data, color=['#51cf66', '#ff6b6b'], width=0.6, edgecolor='black', linewidth=2)
+denom_settled = max(1, len(settled_df))
 for bar in bars:
     height = bar.get_height()
     ax2.text(bar.get_x() + bar.get_width()/2., height,
-            f'{int(height)}\n({height/len(settled_df)*100:.1f}%)',
+            f'{int(height)}\n({height/denom_settled*100:.1f}%)',
             ha='center', va='bottom', fontsize=10, weight='bold')
 ax2.set_ylabel('Number of Trades', fontsize=11, weight='bold')
 ax2.set_title('Win vs Loss Distribution\n(Settled Trades Only)', fontsize=12, weight='bold')
-ax2.set_ylim(0, max(win_loss_data) * 1.15)
+max_win_loss = max(win_loss_data) if len(win_loss_data) > 0 else 0
+ax2.set_ylim(0, max(1, max_win_loss * 1.15))
 
 # ════════════════════════════════════════════════════════════════════
 # 3. P&L CUMULATIVE LINE
 # ════════════════════════════════════════════════════════════════════
 ax3 = plt.subplot(3, 4, 3)
 settled_sorted = settled_df.sort_values('timestamp').reset_index(drop=True)
+# Ensure pnl is numeric — coerce non-numeric to NaN then to 0
+settled_sorted['pnl'] = pd.to_numeric(settled_sorted.get('pnl', pd.Series(dtype=float)), errors='coerce').fillna(0).astype(float)
 cumulative_pnl = settled_sorted['pnl'].cumsum()
-ax3.plot(cumulative_pnl.index, cumulative_pnl.values, marker='o', linewidth=2.5, 
+# Use an explicit integer x-axis to avoid object-dtype indices
+x = np.arange(len(cumulative_pnl))
+ax3.plot(x, cumulative_pnl.values, marker='o', linewidth=2.5, 
          markersize=4, color='#4dabf7', label='Cumulative P&L')
 ax3.axhline(y=0, color='red', linestyle='--', linewidth=2, alpha=0.7)
-ax3.fill_between(cumulative_pnl.index, cumulative_pnl.values, 0, alpha=0.2, color='#4dabf7')
+# Guard against non-numeric/empty arrays when filling between
+if len(cumulative_pnl) > 0:
+    ax3.fill_between(x, cumulative_pnl.values, 0, alpha=0.2, color='#4dabf7')
 ax3.set_xlabel('Trade Number', fontsize=11, weight='bold')
 ax3.set_ylabel('Cumulative P&L ($)', fontsize=11, weight='bold')
-ax3.set_title('Cumulative P&L Over Time\n(77 Settled Trades)', fontsize=12, weight='bold')
+ax3.set_title(f'Cumulative P&L Over Time\n({len(settled_df)} Settled Trades)', fontsize=12, weight='bold')
 ax3.grid(True, alpha=0.3)
 ax3.legend()
 
@@ -121,13 +129,15 @@ bars = ax6.bar(['Failed', 'Pending', 'Settled'], execution_data,
               color=['#ff6b6b', '#ffd93d', '#51cf66'], width=0.6, edgecolor='black', linewidth=2)
 for bar in bars:
     height = bar.get_height()
-    pct = height / len(df) * 100
+    denom_total = max(1, len(df))
+    pct = height / denom_total * 100
     ax6.text(bar.get_x() + bar.get_width()/2., height,
             f'{int(height)}\n({pct:.1f}%)',
             ha='center', va='bottom', fontsize=10, weight='bold')
 ax6.set_ylabel('Number of Trades', fontsize=11, weight='bold')
 ax6.set_title('Trade Execution Status\n(259 Total)', fontsize=12, weight='bold')
-ax6.set_ylim(0, max(execution_data) * 1.15)
+max_exec = max(execution_data) if len(execution_data) > 0 else 0
+ax6.set_ylim(0, max(1, max_exec * 1.15))
 
 # ════════════════════════════════════════════════════════════════════
 # 7. CONFIDENCE DISTRIBUTION BY RESULT
@@ -139,7 +149,7 @@ confidence_data = [
     df[df['result'] == 'FAILED']['confidence'].values,
     df[df['result'] == 'PENDING']['confidence'].values
 ]
-bp = ax7.boxplot(confidence_data, labels=['WIN', 'LOSS', 'FAILED', 'PENDING'],
+bp = ax7.boxplot(confidence_data, tick_labels=['WIN', 'LOSS', 'FAILED', 'PENDING'],
                  patch_artist=True, widths=0.6)
 for patch, color in zip(bp['boxes'], ['#51cf66', '#ff6b6b', '#ff6b6b', '#ffd93d']):
     patch.set_facecolor(color)
@@ -156,7 +166,12 @@ ax8 = plt.subplot(3, 4, 8)
 df['hour'] = df['timestamp'].dt.hour
 df['date'] = df['timestamp'].dt.date
 hourly_data = df.groupby(['date', 'hour']).size().unstack(fill_value=0)
-sns.heatmap(hourly_data, annot=True, fmt='d', cmap='YlOrRd', ax=ax8, cbar_kws={'label': 'Number of Trades'})
+# If there's no hourly data, show a friendly message instead of raising in seaborn
+if hourly_data.size == 0 or hourly_data.values.size == 0 or hourly_data.values.sum() == 0:
+    ax8.axis('off')
+    ax8.text(0.5, 0.5, 'No hourly trade data available', ha='center', va='center', fontsize=12, transform=ax8.transAxes)
+else:
+    sns.heatmap(hourly_data, annot=True, fmt='d', cmap='YlOrRd', ax=ax8, cbar_kws={'label': 'Number of Trades'})
 ax8.set_title('Trades Per Hour (Heatmap)', fontsize=12, weight='bold')
 ax8.set_xlabel('Hour of Day', fontsize=11, weight='bold')
 ax8.set_ylabel('Date', fontsize=11, weight='bold')
@@ -181,11 +196,14 @@ ax9.grid(True, alpha=0.3, axis='y')
 ax10 = plt.subplot(3, 4, 10)
 settled_sorted['win'] = (settled_sorted['result'] == 'WIN').astype(int)
 settled_sorted['rolling_10_win'] = settled_sorted['win'].rolling(window=10, min_periods=1).mean() * 100
+# Ensure rolling win pct is numeric and has no NaNs
+settled_sorted['rolling_10_win'] = pd.to_numeric(settled_sorted['rolling_10_win'], errors='coerce').fillna(0)
 ax10.plot(settled_sorted.index, settled_sorted['rolling_10_win'], marker='o', linewidth=2.5, 
          markersize=4, color='#4c6ef5', label='Rolling 10-Trade Win%')
 ax10.axhline(y=50, color='orange', linestyle='--', linewidth=2, alpha=0.7, label='50% Breakeven')
 ax10.axhline(y=90, color='red', linestyle='--', linewidth=2, alpha=0.7, label='90% Target')
-ax10.fill_between(settled_sorted.index, settled_sorted['rolling_10_win'], 50, alpha=0.1, color='#4c6ef5')
+if len(settled_sorted) > 0:
+    ax10.fill_between(settled_sorted.index, settled_sorted['rolling_10_win'], 50, alpha=0.1, color='#4c6ef5')
 ax10.set_xlabel('Trade Number', fontsize=11, weight='bold')
 ax10.set_ylabel('Win Rate (%)', fontsize=11, weight='bold')
 ax10.set_title('Win Rate Trend (Rolling 10 Trades)', fontsize=12, weight='bold')
@@ -199,10 +217,16 @@ ax10.grid(True, alpha=0.3)
 ax11 = plt.subplot(3, 4, 11)
 ax11.axis('off')
 
-total_pnl = settled_df['pnl'].sum()
-win_rate = len(settled_df[settled_df['result'] == 'WIN']) / len(settled_df) * 100
-profit_factor = abs(settled_df[settled_df['result'] == 'WIN']['pnl'].mean() / 
-                   settled_df[settled_df['result'] == 'LOSS']['pnl'].mean())
+# Ensure pnl fields are numeric for metrics
+total_pnl = pd.to_numeric(settled_df.get('pnl', pd.Series(dtype=float)), errors='coerce').fillna(0).sum()
+denom_settled = max(1, len(settled_df))
+win_rate = len(settled_df[settled_df['result'] == 'WIN']) / denom_settled * 100
+avg_win = pd.to_numeric(settled_df[settled_df['result'] == 'WIN']['pnl'], errors='coerce').mean()
+avg_loss = pd.to_numeric(settled_df[settled_df['result'] == 'LOSS']['pnl'], errors='coerce').mean()
+if avg_loss is None or np.isnan(avg_loss) or avg_loss == 0:
+    profit_factor = np.nan
+else:
+    profit_factor = abs(avg_win / avg_loss)
 
 metrics_text = f"""
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

@@ -47,7 +47,7 @@ TRADE_AMOUNT        = 200.0    # $200 fixed per trade
 DAILY_LOSS_LIMIT    = 2000.0   # $2,000 circuit breaker
 MIN_CONFIDENCE      = 0.60     # 60% minimum (strategy doc: 60–65%)
 MIN_CONFLUENCES     = 5        # require 5/9 indicators to agree
-MAX_TRADES_PER_DAY  = 20       # hard cap
+MAX_TRADES_PER_DAY  = 50       # hard cap (increased per deployment request)
 PAYOUT_MINIMUM      = 0.80     # skip assets below 80% payout
 FTT_DURATION_S      = 60       # 1 minute trades
 

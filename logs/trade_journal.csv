@@ -1,1 +1,4 @@
 timestamp,asset,mode,signal,confidence,amount,result,pnl,state_key
+2026-06-08 19:27:53,EUR/USD OTC,ftt,SELL,0.6242,200.0,WIN,164.0000,
+2026-06-08 19:29:41,EUR/USD OTC,ftt,SELL,0.6300,200.0,WIN,164.0000,
+2026-06-08 19:38:45,EUR/USD OTC,ftt,SELL,0.6342,200.0,LOSS,-200.0000,
