@@ -60034,3 +60034,797 @@ Browser logs:
 2026-06-08 20:16:29,014 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
 2026-06-08 20:16:29,018 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
 2026-06-08 20:16:29,019 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:16:33,925 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:16:33,926 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:16:33,926 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:16:33,926 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:16:33,926 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:16:33,926 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.5 | MACD=-159.426354 | ATR=0.000329
+2026-06-08 20:16:33,926 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:16:33,930 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:16:33,930 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:16:38,931 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:16:38,931 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:16:38,931 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:16:38,931 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:16:38,931 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:16:38,932 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.5 | MACD=-159.426354 | ATR=0.000329
+2026-06-08 20:16:38,932 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:16:38,937 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:16:38,937 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:16:43,935 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:16:43,935 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:16:43,935 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:16:43,935 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:16:43,935 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:16:43,936 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.5 | MACD=-159.426354 | ATR=0.000329
+2026-06-08 20:16:43,936 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:16:43,939 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:16:43,939 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:16:48,945 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:16:48,946 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:16:48,946 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:16:48,946 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:16:48,946 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:16:48,947 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.5 | MACD=-159.426354 | ATR=0.000329
+2026-06-08 20:16:48,947 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:16:48,952 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:16:48,953 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:16:53,950 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:16:53,950 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:16:53,950 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:16:53,950 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:16:53,950 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:16:53,950 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.5 | MACD=-159.426354 | ATR=0.000329
+2026-06-08 20:16:53,950 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:16:53,953 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:16:53,953 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:16:59,292 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:16:59,292 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:16:59,292 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:16:59,292 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:16:59,292 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:16:59,293 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.5 | MACD=-159.426354 | ATR=0.000329
+2026-06-08 20:16:59,293 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:16:59,297 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:16:59,297 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:17:03,960 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:17:03,960 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:17:03,961 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:17:03,961 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:17:03,961 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:17:03,962 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=5.0 | MACD=-151.606053 | ATR=0.000325
+2026-06-08 20:17:03,962 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:17:03,962 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:17:08,968 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:17:08,968 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:17:08,968 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:17:08,968 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:17:08,968 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:17:08,969 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=5.0 | MACD=-151.606053 | ATR=0.000325
+2026-06-08 20:17:08,969 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:17:08,969 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:17:13,971 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:17:13,971 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:17:13,971 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:17:13,971 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:17:13,971 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:17:13,972 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.6 | MACD=-151.606032 | ATR=0.000344
+2026-06-08 20:17:13,972 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:17:13,976 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:17:13,976 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:17:18,977 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:17:18,978 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:17:18,978 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:17:18,978 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:17:18,978 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:17:18,978 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.6 | MACD=-151.606032 | ATR=0.000344
+2026-06-08 20:17:18,978 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:17:18,982 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:17:18,983 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:17:23,981 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:17:23,981 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:17:23,981 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:17:23,981 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:17:23,982 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:17:23,982 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.6 | MACD=-151.606032 | ATR=0.000344
+2026-06-08 20:17:23,982 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:17:23,985 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:17:23,985 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:17:29,086 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:17:29,086 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:17:29,086 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:17:29,086 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:17:29,086 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:17:29,086 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.6 | MACD=-151.606032 | ATR=0.000344
+2026-06-08 20:17:29,087 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:17:29,090 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:17:29,090 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:17:33,995 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:17:33,995 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:17:33,995 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:17:33,995 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:17:33,995 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:17:33,995 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.6 | MACD=-151.606032 | ATR=0.000344
+2026-06-08 20:17:33,996 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:17:34,001 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:17:34,001 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:17:39,002 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:17:39,002 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:17:39,002 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:17:39,002 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:17:39,002 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:17:39,003 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.6 | MACD=-151.606032 | ATR=0.000344
+2026-06-08 20:17:39,003 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:17:39,007 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:17:39,007 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:17:44,008 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:17:44,008 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:17:44,008 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:17:44,008 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:17:44,008 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:17:44,008 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.6 | MACD=-151.606032 | ATR=0.000344
+2026-06-08 20:17:44,008 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:17:44,011 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:17:44,011 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:17:49,014 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:17:49,014 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:17:49,014 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:17:49,014 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:17:49,014 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:17:49,014 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.6 | MACD=-151.606032 | ATR=0.000344
+2026-06-08 20:17:49,014 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:17:49,019 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:17:49,019 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:17:54,018 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:17:54,018 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:17:54,018 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:17:54,018 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:17:54,018 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:17:54,019 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.6 | MACD=-151.606032 | ATR=0.000344
+2026-06-08 20:17:54,019 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:17:54,023 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:17:54,024 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:17:59,206 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:17:59,206 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:17:59,206 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:17:59,207 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:17:59,207 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:17:59,208 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.6 | MACD=-151.606032 | ATR=0.000344
+2026-06-08 20:17:59,208 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:17:59,212 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:17:59,212 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:18:04,028 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:18:04,028 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:18:04,028 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:18:04,028 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:18:04,028 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:18:04,028 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=4.6 | MACD=-143.751295 | ATR=0.000335
+2026-06-08 20:18:04,029 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:18:04,029 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:18:09,034 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:18:09,034 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:18:09,034 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:18:09,034 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:18:09,034 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:18:09,035 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=4.6 | MACD=-143.751295 | ATR=0.000335
+2026-06-08 20:18:09,035 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:18:09,035 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:18:14,038 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:18:14,039 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:18:14,039 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:18:14,039 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:18:14,039 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:18:14,039 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.3 | MACD=-143.751316 | ATR=0.000354
+2026-06-08 20:18:14,039 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:18:14,044 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:18:14,044 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:18:19,046 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:18:19,047 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:18:19,047 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:18:19,047 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:18:19,047 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:18:19,047 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.3 | MACD=-143.751316 | ATR=0.000354
+2026-06-08 20:18:19,047 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:18:19,051 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:18:19,052 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:18:24,049 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:18:24,049 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:18:24,049 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:18:24,049 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:18:24,049 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:18:24,050 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.3 | MACD=-143.751316 | ATR=0.000354
+2026-06-08 20:18:24,050 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:18:24,053 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:18:24,053 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:18:29,132 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:18:29,132 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:18:29,132 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:18:29,132 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:18:29,132 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:18:29,133 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.3 | MACD=-143.751316 | ATR=0.000354
+2026-06-08 20:18:29,133 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:18:29,137 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:18:29,137 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:18:34,062 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:18:34,062 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:18:34,062 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:18:34,063 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:18:34,063 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:18:34,063 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.3 | MACD=-143.751316 | ATR=0.000354
+2026-06-08 20:18:34,063 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:18:34,066 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:18:34,066 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:18:39,068 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:18:39,068 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:18:39,068 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:18:39,068 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:18:39,068 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:18:39,069 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.3 | MACD=-143.751316 | ATR=0.000354
+2026-06-08 20:18:39,069 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:18:39,073 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:18:39,073 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:18:44,069 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:18:44,070 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:18:44,070 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:18:44,070 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:18:44,070 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:18:44,070 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.3 | MACD=-143.751316 | ATR=0.000354
+2026-06-08 20:18:44,070 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:18:44,073 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:18:44,074 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:18:49,078 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:18:49,078 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:18:49,078 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:18:49,079 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:18:49,079 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:18:49,079 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.3 | MACD=-143.751316 | ATR=0.000354
+2026-06-08 20:18:49,079 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:18:49,083 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:18:49,084 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:18:54,085 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:18:54,085 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:18:54,085 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:18:54,085 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:18:54,085 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:18:54,085 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.3 | MACD=-143.751316 | ATR=0.000354
+2026-06-08 20:18:54,086 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:18:54,090 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:18:54,090 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:18:59,366 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:18:59,366 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:18:59,366 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:18:59,366 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:18:59,366 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:18:59,367 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.3 | MACD=-143.751316 | ATR=0.000354
+2026-06-08 20:18:59,367 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:18:59,371 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:18:59,371 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:19:04,094 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:19:04,094 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:19:04,094 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:19:04,094 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:19:04,094 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:19:04,095 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.4 | MACD=-135.959146 | ATR=0.000349
+2026-06-08 20:19:04,095 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:19:04,099 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:19:04,099 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:19:09,099 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:19:09,099 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:19:09,099 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:19:09,099 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:19:09,099 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:19:09,100 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.4 | MACD=-135.959146 | ATR=0.000349
+2026-06-08 20:19:09,100 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:19:09,103 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:19:09,103 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:19:14,107 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:19:14,107 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:19:14,107 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:19:14,107 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:19:14,107 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:19:14,108 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.4 | MACD=-135.959146 | ATR=0.000349
+2026-06-08 20:19:14,108 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:19:14,112 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:19:14,112 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:19:19,114 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:19:19,114 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:19:19,114 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:19:19,114 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:19:19,114 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:19:19,115 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.4 | MACD=-135.959146 | ATR=0.000349
+2026-06-08 20:19:19,115 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:19:19,121 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:19:19,121 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:19:24,117 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:19:24,117 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:19:24,117 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:19:24,117 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:19:24,117 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:19:24,118 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.4 | MACD=-135.959146 | ATR=0.000349
+2026-06-08 20:19:24,118 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:19:24,121 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:19:24,121 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:19:29,238 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:19:29,238 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:19:29,238 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:19:29,238 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:19:29,238 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:19:29,238 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.4 | MACD=-135.959146 | ATR=0.000349
+2026-06-08 20:19:29,238 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:19:29,242 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:19:29,242 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:19:34,128 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:19:34,128 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:19:34,128 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:19:34,128 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:19:34,128 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:19:34,129 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.4 | MACD=-135.959146 | ATR=0.000349
+2026-06-08 20:19:34,129 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:19:34,132 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:19:34,132 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:19:39,136 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:19:39,137 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:19:39,137 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:19:39,137 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:19:39,137 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:19:39,137 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.4 | MACD=-135.959146 | ATR=0.000349
+2026-06-08 20:19:39,137 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:19:39,142 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:19:39,142 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:19:44,142 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:19:44,143 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:19:44,143 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:19:44,143 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:19:44,144 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:19:44,144 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.4 | MACD=-135.959146 | ATR=0.000349
+2026-06-08 20:19:44,144 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:19:44,149 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:19:44,150 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:19:49,146 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:19:49,146 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:19:49,146 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:19:49,146 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:19:49,146 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:19:49,147 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.4 | MACD=-135.959146 | ATR=0.000349
+2026-06-08 20:19:49,147 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:19:49,150 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:19:49,150 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:19:54,149 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:19:54,149 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:19:54,149 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:19:54,149 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:19:54,149 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:19:54,150 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.4 | MACD=-135.959146 | ATR=0.000349
+2026-06-08 20:19:54,150 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:19:54,153 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:19:54,154 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:19:59,349 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:19:59,349 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:19:59,349 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:19:59,350 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:19:59,350 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:19:59,350 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.4 | MACD=-135.959146 | ATR=0.000349
+2026-06-08 20:19:59,350 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:19:59,353 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/2H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:19:59,354 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:20:04,164 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:20:04,164 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:20:04,164 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:20:04,164 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:20:04,164 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:20:04,164 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=4.4 | MACD=-128.304776 | ATR=0.000344
+2026-06-08 20:20:04,164 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:20:04,164 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:20:09,168 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:20:09,168 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:20:09,168 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:20:09,168 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:20:09,168 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:20:09,169 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=4.4 | MACD=-128.304776 | ATR=0.000344
+2026-06-08 20:20:09,169 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:20:09,169 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:20:14,172 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:20:14,172 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:20:14,172 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:20:14,173 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:20:14,173 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:20:14,173 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.3 | MACD=-128.304786 | ATR=0.000353
+2026-06-08 20:20:14,173 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:20:14,176 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/3H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:20:14,177 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:20:19,179 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:20:19,180 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:20:19,180 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:20:19,180 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:20:19,180 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:20:19,180 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.3 | MACD=-128.304786 | ATR=0.000353
+2026-06-08 20:20:19,180 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:20:19,186 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/3H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:20:19,187 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:20:24,184 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:20:24,184 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:20:24,184 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:20:24,184 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:20:24,184 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:20:24,185 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.3 | MACD=-128.304786 | ATR=0.000353
+2026-06-08 20:20:24,185 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:20:24,188 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/3H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:20:24,189 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:20:29,279 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:20:29,279 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:20:29,279 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:20:29,279 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:20:29,279 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:20:29,279 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.3 | MACD=-128.304786 | ATR=0.000353
+2026-06-08 20:20:29,279 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:20:29,283 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/3H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:20:29,283 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:20:34,193 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:20:34,193 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:20:34,193 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:20:34,194 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:20:34,194 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:20:34,194 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.3 | MACD=-128.304786 | ATR=0.000353
+2026-06-08 20:20:34,194 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:20:34,199 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/3H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:20:34,199 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:20:39,199 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:20:39,199 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:20:39,199 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:20:39,199 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:20:39,199 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:20:39,200 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.3 | MACD=-128.304786 | ATR=0.000353
+2026-06-08 20:20:39,200 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:20:39,205 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/3H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:20:39,206 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:20:44,202 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:20:44,202 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:20:44,203 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:20:44,203 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:20:44,203 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:20:44,203 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.3 | MACD=-128.304786 | ATR=0.000353
+2026-06-08 20:20:44,203 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:20:44,207 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/3H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:20:44,207 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:20:49,208 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:20:49,208 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:20:49,208 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:20:49,208 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:20:49,208 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:20:49,209 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.3 | MACD=-128.304786 | ATR=0.000353
+2026-06-08 20:20:49,209 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:20:49,214 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/3H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:20:49,214 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:20:54,210 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:20:54,210 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:20:54,210 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:20:54,210 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:20:54,210 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:20:54,211 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.3 | MACD=-128.304786 | ATR=0.000353
+2026-06-08 20:20:54,211 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:20:54,214 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/3H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:20:54,214 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:20:59,393 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:20:59,393 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:20:59,393 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:20:59,394 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:20:59,394 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:20:59,394 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.3 | MACD=-128.304786 | ATR=0.000353
+2026-06-08 20:20:59,394 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:20:59,399 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/3H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:20:59,400 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:21:04,221 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:21:04,221 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:21:04,221 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:21:04,221 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:21:04,221 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:21:04,222 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.3 | MACD=-120.845618 | ATR=0.000345
+2026-06-08 20:21:04,222 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:21:04,228 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/3H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:21:04,228 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:21:09,225 [INFO] agent1_mtf — [Agent1] BUY 2/3 active TFs | raw=63.80% sr=+4.00% floor=45.00% → conf=67.80% | bias=bullish | BB=NORMAL
+2026-06-08 20:21:09,226 [INFO] multi_agent_orchestrator — [Agent1] BUY @ 67.80%
+2026-06-08 20:21:09,226 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:21:09,226 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30BM|60BM|300NL
+2026-06-08 20:21:09,226 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for BUY)
+2026-06-08 20:21:09,226 [INFO] multi_agent_orchestrator — [Regime] RANGING | RSI=6.3 | MACD=-120.845618 | ATR=0.000345
+2026-06-08 20:21:09,226 [INFO] multi_agent_orchestrator — [RegimeValidation] BUY in ranging market — S/R required
+2026-06-08 20:21:09,231 [INFO] multi_agent_orchestrator — [Consensus] HOLD@100% (0B/0S/3H) | Trend=SIDEWAYS@0% | Downtrend=0%
+2026-06-08 20:21:09,231 [INFO] multi_agent_orchestrator — [MultiTFTrend] No clear directional consensus — wait for trend
+2026-06-08 20:21:14,226 [INFO] agent1_mtf — [Agent1] SELL 2/3 active TFs | raw=58.63% sr=+4.00% floor=45.00% → conf=74.63% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:21:14,226 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 74.63%
+2026-06-08 20:21:14,226 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:21:14,226 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30SL|60SM|300NL
+2026-06-08 20:21:14,226 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for SELL)
+2026-06-08 20:21:14,226 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=100.0 | MACD=-36.795346 | ATR=75.294430
+2026-06-08 20:21:14,226 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:21:14,227 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:21:19,229 [INFO] agent1_mtf — [Agent1] SELL 2/3 active TFs | raw=58.63% sr=+4.00% floor=45.00% → conf=74.63% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:21:19,229 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 74.63%
+2026-06-08 20:21:19,229 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:21:19,229 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30SL|60SM|300NL
+2026-06-08 20:21:19,230 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for SELL)
+2026-06-08 20:21:19,230 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=100.0 | MACD=-36.831802 | ATR=75.294430
+2026-06-08 20:21:19,230 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:21:19,230 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:21:24,235 [INFO] agent1_mtf — [Agent1] SELL 2/3 active TFs | raw=58.63% sr=+4.00% floor=45.00% → conf=74.63% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:21:24,235 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 74.63%
+2026-06-08 20:21:24,235 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:21:24,235 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30SL|60SM|300NL
+2026-06-08 20:21:24,235 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for SELL)
+2026-06-08 20:21:24,236 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=100.0 | MACD=-36.786730 | ATR=75.294430
+2026-06-08 20:21:24,236 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:21:24,236 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:21:29,238 [INFO] agent1_mtf — [Agent1] SELL 2/3 active TFs | raw=58.63% sr=+4.00% floor=45.00% → conf=74.63% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:21:29,238 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 74.63%
+2026-06-08 20:21:29,238 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:21:29,238 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30SL|60SM|300NL
+2026-06-08 20:21:29,239 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for SELL)
+2026-06-08 20:21:29,239 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=100.0 | MACD=-36.716451 | ATR=75.363073
+2026-06-08 20:21:29,239 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:21:29,239 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:21:34,242 [INFO] agent1_mtf — [Agent1] SELL 2/3 active TFs | raw=58.63% sr=+4.00% floor=45.00% → conf=74.63% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:21:34,242 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 74.63%
+2026-06-08 20:21:34,243 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:21:34,243 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30SL|60SM|300NL
+2026-06-08 20:21:34,243 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for SELL)
+2026-06-08 20:21:34,243 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=100.0 | MACD=-36.830446 | ATR=75.363073
+2026-06-08 20:21:34,243 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:21:34,243 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:21:39,247 [INFO] agent1_mtf — [Agent1] SELL 2/3 active TFs | raw=58.63% sr=+4.00% floor=45.00% → conf=74.63% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:21:39,247 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 74.63%
+2026-06-08 20:21:39,247 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:21:39,247 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30SL|60SM|300NL
+2026-06-08 20:21:39,247 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for SELL)
+2026-06-08 20:21:39,248 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=100.0 | MACD=-36.794708 | ATR=75.363073
+2026-06-08 20:21:39,248 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:21:39,248 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:21:44,250 [INFO] agent1_mtf — [Agent1] SELL 2/3 active TFs | raw=58.63% sr=+4.00% floor=45.00% → conf=74.63% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:21:44,250 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 74.63%
+2026-06-08 20:21:44,250 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:21:44,250 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30SL|60SM|300NL
+2026-06-08 20:21:44,250 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for SELL)
+2026-06-08 20:21:44,250 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=100.0 | MACD=-36.867380 | ATR=75.363073
+2026-06-08 20:21:44,251 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:21:44,251 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:21:49,252 [INFO] agent1_mtf — [Agent1] SELL 2/3 active TFs | raw=58.63% sr=+4.00% floor=45.00% → conf=74.63% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:21:49,252 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 74.63%
+2026-06-08 20:21:49,252 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:21:49,252 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30SL|60SM|300NL
+2026-06-08 20:21:49,252 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for SELL)
+2026-06-08 20:21:49,253 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=100.0 | MACD=-36.936862 | ATR=75.363073
+2026-06-08 20:21:49,253 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:21:49,253 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:21:54,258 [INFO] agent1_mtf — [Agent1] SELL 2/3 active TFs | raw=58.63% sr=+4.00% floor=45.00% → conf=74.63% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:21:54,258 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 74.63%
+2026-06-08 20:21:54,258 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:21:54,258 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30SL|60SM|300NL
+2026-06-08 20:21:54,258 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for SELL)
+2026-06-08 20:21:54,259 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=100.0 | MACD=-36.976827 | ATR=75.363073
+2026-06-08 20:21:54,259 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:21:54,259 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:21:59,262 [INFO] agent1_mtf — [Agent1] SELL 2/3 active TFs | raw=58.63% sr=+4.00% floor=45.00% → conf=74.63% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:21:59,262 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 74.63%
+2026-06-08 20:21:59,262 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:21:59,262 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30SL|60SM|300NL
+2026-06-08 20:21:59,263 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for SELL)
+2026-06-08 20:21:59,263 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=100.0 | MACD=-36.908144 | ATR=75.363073
+2026-06-08 20:21:59,263 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:21:59,263 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:22:04,265 [INFO] agent1_mtf — [Agent1] SELL 2/3 active TFs | raw=56.28% sr=+4.00% floor=45.00% → conf=72.28% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:22:04,265 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 72.28%
+2026-06-08 20:22:04,265 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:22:04,265 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30SL|60SL|300NL
+2026-06-08 20:22:04,265 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for SELL)
+2026-06-08 20:22:04,265 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=99.8 | MACD=35.026105 | ATR=75.470285
+2026-06-08 20:22:04,265 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:22:04,265 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:22:09,271 [INFO] agent1_mtf — [Agent1] SELL 2/3 active TFs | raw=56.28% sr=+4.00% floor=45.00% → conf=72.28% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:22:09,272 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 72.28%
+2026-06-08 20:22:09,272 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:22:09,272 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30SL|60SL|300NL
+2026-06-08 20:22:09,272 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for SELL)
+2026-06-08 20:22:09,272 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=99.8 | MACD=35.037751 | ATR=75.470285
+2026-06-08 20:22:09,272 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:22:09,272 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:22:14,274 [INFO] agent1_mtf — [Agent1] SELL 2/3 active TFs | raw=56.28% sr=+4.00% floor=45.00% → conf=72.28% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:22:14,274 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 72.28%
+2026-06-08 20:22:14,274 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:22:14,274 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30SL|60SL|300NL
+2026-06-08 20:22:14,274 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for SELL)
+2026-06-08 20:22:14,274 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=100.0 | MACD=35.304589 | ATR=75.612428
+2026-06-08 20:22:14,274 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:22:14,274 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:22:19,277 [INFO] agent1_mtf — [Agent1] SELL 2/3 active TFs | raw=56.28% sr=+4.00% floor=45.00% → conf=72.28% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:22:19,277 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 72.28%
+2026-06-08 20:22:19,278 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:22:19,278 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30SL|60SL|300NL
+2026-06-08 20:22:19,278 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for SELL)
+2026-06-08 20:22:19,278 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=100.0 | MACD=35.307780 | ATR=75.666428
+2026-06-08 20:22:19,278 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:22:19,278 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:22:24,280 [INFO] agent1_mtf — [Agent1] SELL 2/3 active TFs | raw=56.28% sr=+4.00% floor=45.00% → conf=72.28% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:22:24,281 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 72.28%
+2026-06-08 20:22:24,281 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:22:24,281 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30SL|60SL|300NL
+2026-06-08 20:22:24,281 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for SELL)
+2026-06-08 20:22:24,281 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=100.0 | MACD=35.332749 | ATR=75.666428
+2026-06-08 20:22:24,281 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:22:24,281 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:22:29,286 [INFO] agent1_mtf — [Agent1] SELL 2/3 active TFs | raw=56.28% sr=+4.00% floor=45.00% → conf=72.28% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:22:29,286 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 72.28%
+2026-06-08 20:22:29,286 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:22:29,286 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30SL|60SL|300NL
+2026-06-08 20:22:29,287 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for SELL)
+2026-06-08 20:22:29,288 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=100.0 | MACD=35.264703 | ATR=75.666428
+2026-06-08 20:22:29,288 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:22:29,288 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:22:34,290 [INFO] agent1_mtf — [Agent1] SELL 2/3 active TFs | raw=56.28% sr=+4.00% floor=45.00% → conf=72.28% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:22:34,290 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 72.28%
+2026-06-08 20:22:34,290 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:22:34,290 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30SL|60SL|300NL
+2026-06-08 20:22:34,290 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for SELL)
+2026-06-08 20:22:34,291 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=100.0 | MACD=35.376145 | ATR=75.676500
+2026-06-08 20:22:34,291 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:22:34,291 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:22:39,293 [INFO] agent1_mtf — [Agent1] SELL 2/3 active TFs | raw=56.28% sr=+4.00% floor=45.00% → conf=72.28% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:22:39,293 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 72.28%
+2026-06-08 20:22:39,293 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:22:39,293 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30SL|60SL|300NL
+2026-06-08 20:22:39,293 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for SELL)
+2026-06-08 20:22:39,293 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=100.0 | MACD=35.304429 | ATR=75.676500
+2026-06-08 20:22:39,293 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:22:39,293 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:22:44,295 [INFO] agent1_mtf — [Agent1] SELL 2/3 active TFs | raw=56.28% sr=+4.00% floor=45.00% → conf=72.28% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:22:44,295 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 72.28%
+2026-06-08 20:22:44,295 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:22:44,295 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30SL|60SL|300NL
+2026-06-08 20:22:44,295 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for SELL)
+2026-06-08 20:22:44,295 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=100.0 | MACD=35.397364 | ATR=75.695500
+2026-06-08 20:22:44,295 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:22:44,296 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:22:49,299 [INFO] agent1_mtf — [Agent1] SELL 2/3 active TFs | raw=56.28% sr=+4.00% floor=45.00% → conf=72.28% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:22:49,300 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 72.28%
+2026-06-08 20:22:49,300 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:22:49,300 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30SL|60SL|300NL
+2026-06-08 20:22:49,300 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for SELL)
+2026-06-08 20:22:49,300 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=100.0 | MACD=35.308897 | ATR=75.695500
+2026-06-08 20:22:49,300 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:22:49,300 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:22:54,300 [INFO] agent1_mtf — [Agent1] SELL 2/3 active TFs | raw=56.28% sr=+4.00% floor=45.00% → conf=72.28% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:22:54,301 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 72.28%
+2026-06-08 20:22:54,301 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:22:54,301 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30SL|60SL|300NL
+2026-06-08 20:22:54,301 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for SELL)
+2026-06-08 20:22:54,301 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=100.0 | MACD=35.288395 | ATR=75.695500
+2026-06-08 20:22:54,301 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:22:54,301 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:22:59,307 [INFO] agent1_mtf — [Agent1] SELL 2/3 active TFs | raw=56.28% sr=+4.00% floor=45.00% → conf=72.28% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:22:59,307 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 72.28%
+2026-06-08 20:22:59,307 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:22:59,307 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30SL|60SL|300NL
+2026-06-08 20:22:59,307 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=66.7% (votes for SELL)
+2026-06-08 20:22:59,307 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=100.0 | MACD=35.264065 | ATR=75.695500
+2026-06-08 20:22:59,307 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:22:59,307 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:23:04,312 [INFO] agent1_mtf — [Agent1] SELL 1/3 active TFs | raw=56.28% sr=+4.00% floor=40.00% → conf=72.28% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:23:04,313 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 72.28%
+2026-06-08 20:23:04,313 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:23:04,313 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30NL|60SL|300NL
+2026-06-08 20:23:04,313 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=33.3% (votes for SELL)
+2026-06-08 20:23:04,313 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=99.8 | MACD=91.322176 | ATR=75.726710
+2026-06-08 20:23:04,313 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:23:04,314 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:23:09,314 [INFO] agent1_mtf — [Agent1] SELL 1/3 active TFs | raw=56.28% sr=+4.00% floor=40.00% → conf=72.28% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:23:09,314 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 72.28%
+2026-06-08 20:23:09,314 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:23:09,314 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30NL|60SL|300NL
+2026-06-08 20:23:09,314 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=33.3% (votes for SELL)
+2026-06-08 20:23:09,314 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=100.0 | MACD=91.463612 | ATR=75.829710
+2026-06-08 20:23:09,314 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:23:09,314 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:23:14,318 [INFO] agent1_mtf — [Agent1] SELL 1/3 active TFs | raw=56.28% sr=+4.00% floor=40.00% → conf=72.28% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:23:14,319 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 72.28%
+2026-06-08 20:23:14,319 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:23:14,319 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30NL|60SL|300NL
+2026-06-08 20:23:14,319 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=33.3% (votes for SELL)
+2026-06-08 20:23:14,319 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=99.7 | MACD=91.266655 | ATR=75.871853
+2026-06-08 20:23:14,319 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:23:14,319 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:23:19,321 [INFO] agent1_mtf — [Agent1] SELL 1/3 active TFs | raw=56.28% sr=+4.00% floor=40.00% → conf=72.28% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:23:19,321 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 72.28%
+2026-06-08 20:23:19,321 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:23:19,321 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30NL|60SL|300NL
+2026-06-08 20:23:19,321 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=33.3% (votes for SELL)
+2026-06-08 20:23:19,321 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=99.7 | MACD=91.282449 | ATR=75.888567
+2026-06-08 20:23:19,321 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:23:19,321 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:23:24,328 [INFO] agent1_mtf — [Agent1] SELL 1/3 active TFs | raw=56.28% sr=+4.00% floor=40.00% → conf=72.28% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:23:24,328 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 72.28%
+2026-06-08 20:23:24,328 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:23:24,328 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30NL|60SL|300NL
+2026-06-08 20:23:24,328 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=33.3% (votes for SELL)
+2026-06-08 20:23:24,328 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=99.9 | MACD=91.363259 | ATR=75.888567
+2026-06-08 20:23:24,328 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:23:24,328 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:23:29,331 [INFO] agent1_mtf — [Agent1] SELL 1/3 active TFs | raw=56.28% sr=+4.00% floor=40.00% → conf=72.28% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:23:29,331 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 72.28%
+2026-06-08 20:23:29,331 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:23:29,331 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30NL|60SL|300NL
+2026-06-08 20:23:29,331 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=33.3% (votes for SELL)
+2026-06-08 20:23:29,331 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=100.0 | MACD=91.522962 | ATR=75.949781
+2026-06-08 20:23:29,331 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:23:29,331 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:23:34,333 [INFO] agent1_mtf — [Agent1] SELL 1/3 active TFs | raw=56.28% sr=+4.00% floor=40.00% → conf=72.28% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:23:34,333 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 72.28%
+2026-06-08 20:23:34,333 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:23:34,333 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30NL|60SL|300NL
+2026-06-08 20:23:34,333 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=33.3% (votes for SELL)
+2026-06-08 20:23:34,334 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=99.9 | MACD=91.362541 | ATR=75.949781
+2026-06-08 20:23:34,334 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:23:34,334 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:23:39,338 [INFO] agent1_mtf — [Agent1] SELL 1/3 active TFs | raw=56.28% sr=+4.00% floor=40.00% → conf=72.28% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:23:39,338 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 72.28%
+2026-06-08 20:23:39,338 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:23:39,338 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30NL|60SL|300NL
+2026-06-08 20:23:39,338 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=33.3% (votes for SELL)
+2026-06-08 20:23:39,338 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=100.0 | MACD=91.497595 | ATR=75.949781
+2026-06-08 20:23:39,338 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:23:39,338 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:23:44,341 [INFO] agent1_mtf — [Agent1] SELL 1/3 active TFs | raw=56.28% sr=+4.00% floor=40.00% → conf=72.28% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:23:44,341 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 72.28%
+2026-06-08 20:23:44,342 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:23:44,342 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30NL|60SL|300NL
+2026-06-08 20:23:44,342 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=33.3% (votes for SELL)
+2026-06-08 20:23:44,342 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=100.0 | MACD=91.526712 | ATR=75.949781
+2026-06-08 20:23:44,342 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:23:44,342 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:23:49,346 [INFO] agent1_mtf — [Agent1] SELL 1/3 active TFs | raw=56.28% sr=+4.00% floor=40.00% → conf=72.28% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:23:49,346 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 72.28%
+2026-06-08 20:23:49,346 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:23:49,347 [INFO] multi_agent_orchestrator — [Agent2] SELL @ 62.00% | state=30NL|60SL|300NL
+2026-06-08 20:23:49,347 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=33.3% (votes for SELL)
+2026-06-08 20:23:49,347 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=100.0 | MACD=91.472227 | ATR=75.949781
+2026-06-08 20:23:49,347 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:23:49,347 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:23:54,350 [INFO] agent1_mtf — [Agent1] SELL 1/3 active TFs | raw=56.28% sr=+4.00% floor=40.00% → conf=72.28% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:23:54,351 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 72.28%
+2026-06-08 20:23:54,351 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:23:54,351 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30NL|60SL|300NL
+2026-06-08 20:23:54,352 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=33.3% (votes for SELL)
+2026-06-08 20:23:54,352 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=99.6 | MACD=91.227487 | ATR=76.013424
+2026-06-08 20:23:54,352 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:23:54,352 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:23:59,355 [INFO] agent1_mtf — [Agent1] SELL 1/3 active TFs | raw=56.28% sr=+4.00% floor=40.00% → conf=72.28% | bias=bearish | BB=ABOVE_UPPER
+2026-06-08 20:23:59,355 [INFO] multi_agent_orchestrator — [Agent1] SELL @ 72.28%
+2026-06-08 20:23:59,355 [INFO] multi_agent_orchestrator — [TradeCapacity] 17 trades left | loss budget=$1800 (~9 trades)
+2026-06-08 20:23:59,356 [INFO] multi_agent_orchestrator — [Agent2] BUY @ 62.00% | state=30NL|60SL|300NL
+2026-06-08 20:23:59,356 [INFO] multi_agent_orchestrator — [StateQuality] Consensus=33.3% (votes for SELL)
+2026-06-08 20:23:59,356 [INFO] multi_agent_orchestrator — [Regime] UNKNOWN | RSI=99.7 | MACD=91.272558 | ATR=76.013424
+2026-06-08 20:23:59,356 [INFO] multi_agent_orchestrator — [RegimeValidation] Unknown regime — skip
+2026-06-08 20:23:59,356 [INFO] multi_agent_orchestrator — [RegimeGate] Rejected — skip
+2026-06-08 20:24:04,360 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:24:04,360 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:24:09,366 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:24:09,366 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:24:14,374 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:24:14,374 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:24:19,376 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:24:19,377 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:24:24,381 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:24:24,381 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:24:29,384 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:24:29,384 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:24:34,387 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:24:34,387 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:24:39,391 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:24:39,391 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:24:44,394 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:24:44,395 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:24:49,398 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:24:49,399 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:24:54,403 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:24:54,403 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
+2026-06-08 20:24:59,405 [INFO] multi_agent_orchestrator — [Agent1] HOLD @ 0.00%
+2026-06-08 20:24:59,405 [INFO] multi_agent_orchestrator — [Agent1] HOLD — insufficient TF agreement.
